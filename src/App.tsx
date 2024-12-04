@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './Home'
-import { createTheme, ThemeProvider } from '@mui/material'
+import Home from './views/Home'
+import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 
 const darkTheme = createTheme({
   palette: {
@@ -22,6 +22,7 @@ const darkTheme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={darkTheme} defaultMode="dark">
+      <CssBaseline />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
