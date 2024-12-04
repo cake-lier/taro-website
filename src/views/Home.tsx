@@ -20,13 +20,11 @@ export default function Home() {
           <Links />
         </Grid>
         <Grid size={{ xs: 7 }}>
-          <Typography variant="body1">
-            {t("home.body")}
-          </Typography>
+          <Typography variant="body1">{t("home.body")}</Typography>
         </Grid>
       </Grid>
       <Separator />
       <Footer />
     </Container>
-  )
+  );
 }

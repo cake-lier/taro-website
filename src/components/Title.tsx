@@ -14,12 +14,12 @@ export default function Title() {
   return (
     <AppBar position="relative" color="transparent" sx={{ boxShadow: "none" }}>
       <Toolbar sx={{ padding: "0 !important" }}>
-          <Button disableRipple variant="text" sx={{ textTransform: "none", padding: "0", marginTop: "10px" }} href="/">
-            <Typography variant="h5">
-              {t("header.title", { adjective: t(`header.adjectives.${adjectiveIndex.toString()}`) })}
-            </Typography>
-          </Button>
+        <Button disableRipple variant="text" sx={{ textTransform: "none", padding: "0", marginTop: "10px" }} href="/">
+          <Typography variant="h5">
+            {t("header.title", { adjective: t(`header.adjectives.${adjectiveIndex.toString()}`) })}
+          </Typography>
+        </Button>
       </Toolbar>
     </AppBar>
-  )
+  );
 }

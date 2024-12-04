@@ -8,24 +8,24 @@ export default function Links() {
         {
           text: "/instagram",
           icon: <Instagram />,
-          link: "https://www.instagram.com/cake_lier"
+          link: "https://www.instagram.com/cake_lier",
         },
         {
           text: "/twitter",
           icon: <Twitter />,
-          link: "https://www.twitter.com/cake_lier"
+          link: "https://www.twitter.com/cake_lier",
         },
         {
           text: "/steam",
           icon: <SportsEsports />,
-          link: "https://steamcommunity.com/profiles/76561198121033610"
+          link: "https://steamcommunity.com/profiles/76561198121033610",
         },
         {
           text: "/reddit",
           icon: <Reddit />,
-          link: "https://www.reddit.com/user/cake_lier"
-        }
-      ].map((e, i) => 
+          link: "https://www.reddit.com/user/cake_lier",
+        },
+      ].map((e, i) => (
         <Button
           key={i}
           disableRipple
@@ -37,7 +37,7 @@ export default function Links() {
         >
           {e.text}
         </Button>
-      )}
+      ))}
     </Stack>
-  )
+  );
 }
