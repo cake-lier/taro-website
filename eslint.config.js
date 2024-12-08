@@ -5,6 +5,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
+import i18next from "eslint-plugin-i18next";
 
 export default tseslint.config(
   { ignores: ["dist"] },
@@ -14,6 +15,7 @@ export default tseslint.config(
       js.configs.recommended,
       ...tseslint.configs.strictTypeChecked,
       ...tseslint.configs.stylisticTypeChecked,
+      i18next.configs["flat/recommended"],
       eslintPluginPrettierRecommended,
     ],
     files: ["**/*.{ts,tsx}"],

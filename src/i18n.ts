@@ -13,6 +13,7 @@ const initLocale = async () =>
       interpolation: {
         escapeValue: false,
       },
+      load: "languageOnly",
     });
 
 initLocale().catch((e: unknown) => {
