@@ -7,12 +7,12 @@ import "./Home.css";
 import Footer from "../components/Footer";
 import { useTranslation } from "react-i18next";
 
-export default function Home() {
+export default function Home({ adjectiveIndex }: { adjectiveIndex: number }) {
   const { t } = useTranslation();
 
   return (
     <Container className="crt" maxWidth="md">
-      <Title />
+      <Title adjectiveIndex={adjectiveIndex} />
       <Separator />
       <Gallery />
       <Grid container>

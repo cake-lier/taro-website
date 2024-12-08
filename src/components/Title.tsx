@@ -1,15 +1,8 @@
 import { AppBar, Button, Toolbar, Typography } from "@mui/material";
-import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-export default function Title() {
+export default function Title({ adjectiveIndex }: { adjectiveIndex: number }) {
   const { t } = useTranslation();
-  const [adjectiveIndex, setAdjectiveIndex] = useState(0);
-
-  useEffect(() => {
-    const index = Math.floor(Math.random() * 4);
-    setAdjectiveIndex(index < 4 ? index : 0);
-  }, []);
 
   return (
     <AppBar position="relative" color="transparent" sx={{ boxShadow: "none" }}>
