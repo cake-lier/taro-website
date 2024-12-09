@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/cake-lier/taro-website/compare/v1.0.0...v1.0.1) (2024-12-09)
+
+
+### Bug Fixes
+
+* add padding to title ([78c1b90](https://github.com/cake-lier/taro-website/commit/78c1b909211b192beea976cab37fc929ca175ce3))
+
 # 1.0.0 (2024-12-09)
 
 
