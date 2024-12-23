@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/cake-lier/taro-website/compare/v1.0.1...v1.1.0) (2024-12-23)
+
+
+### Features
+
+* add new pride art ([3009cd1](https://github.com/cake-lier/taro-website/commit/3009cd1883ea3ced682cb3ecf646767827ec725e))
+
 ## [1.0.1](https://github.com/cake-lier/taro-website/compare/v1.0.0...v1.0.1) (2024-12-09)
 
 
